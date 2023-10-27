@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>E-Cart</title>
+        <link rel="stylesheet" href = "./resources/css/style.css"/>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header-container">
+              <header>
+                <div class="logo">
+                    <svg height="55px" id="Layer_1" style="enable-background:new 0 0 64 64;" version="1.1" viewBox="0 0 64 64" width="45px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g>
+                            <path d="M56.262,17.837H26.748c-0.961,0-1.508,0.743-1.223,1.661l4.669,13.677c0.23,0.738,1.044,1.336,1.817,1.336h19.35   c0.773,0,1.586-0.598,1.815-1.336l4.069-14C57.476,18.437,57.036,17.837,56.262,17.837z" fill="white" />
+                            <circle cx="29.417" cy="50.267" r="4.415" fill="white" />
+                            <circle cx="48.099" cy="50.323" r="4.415" fill="white" />
+                            <path d="M53.4,39.004H27.579L17.242,9.261H9.193c-1.381,0-2.5,1.119-2.5,2.5s1.119,2.5,2.5,2.5h4.493l10.337,29.743H53.4   c1.381,0,2.5-1.119,2.5-2.5S54.781,39.004,53.4,39.004z" fill="white" />
+                        </g>
+                    </svg>
+                    <h1 class="title">E-Cart</h1>
+                </div>
+                <input type="search" class="product-search" placeholder="Enter the product name">
+                <a href="signup.html" class="signup-url"><button type="button" id="signup-button" title="SignUp">
+                    <svg enable-background="new 0 0 32 32" height="32px" id="Layer_1" version="1.1" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <g>
+                        <polyline fill="none" points="649,137.999 675,137.999 675,155.999 661,155.999" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" />
+                        <polyline fill="none" points="653,155.999 649,155.999 649,141.999" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" />
+                        <polyline fill="none" points="661,156 653,162 653,156" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" />
+                    </g>
+                    <path d="M21.947,16.332C23.219,14.915,24,13.049,24,11c0-4.411-3.589-8-8-8s-8,3.589-8,8s3.589,8,8,8  c1.555,0,3.003-0.453,4.233-1.224c4.35,1.639,7.345,5.62,7.726,10.224H4.042c0.259-3.099,1.713-5.989,4.078-8.051  c0.417-0.363,0.46-0.994,0.097-1.411c-0.362-0.416-0.994-0.46-1.411-0.097C3.751,21.103,2,24.951,2,29c0,0.553,0.448,1,1,1h26  c0.553,0,1-0.447,1-1C30,23.514,26.82,18.615,21.947,16.332z M10,11c0-3.309,2.691-6,6-6s6,2.691,6,6s-2.691,6-6,6S10,14.309,10,11z" fill="#FFFFFF" />
+                    </svg>SignUp</button>
+                </a> 
+                <button id="cart" title="cart">
+                    <svg width="50" height="50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                        <g data-name="Layer 2">
+                            <path d="M23.52 29h-15a5.48 5.48 0 0 1-5.31-6.83L6.25 9.76a1 1 0 0 1 1-.76H24a1 1 0 0 1 1 .7l3.78 12.16a5.49 5.49 0 0 1-.83 4.91A5.41 5.41 0 0 1 23.52 29ZM8 11 5.11 22.65A3.5 3.5 0 0 0 8.48 27h15a3.44 3.44 0 0 0 2.79-1.42 3.5 3.5 0 0 0 .53-3.13L23.28 11Z" fill="#ffffff" class="fill-000000"></path>
+                            <path d="M20 17a1 1 0 0 1-1-1V8a3 3 0 0 0-6 0v8a1 1 0 0 1-2 0V8a5 5 0 0 1 10 0v8a1 1 0 0 1-1 1Z" fill="#ffffff" class="fill-000000"></path>
+                        </g>
+                    </svg>
+                    <div class="cart-counter">0</div>
+                </button>
+                <div class="cart-box" >
+
+                </div>
+              </header>
+            </div>
+            <div id="products">
+            
+            </div>
+        </div>
+       <script src="./resources/javascript/script.js"></script>
+    </body>
+</html>
